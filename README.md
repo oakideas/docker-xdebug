@@ -1,5 +1,7 @@
 # How to Set Up PHP Xdebug in Docker for Your Development Environment
 
+Em pt-br: [Como Configurar o PHP Xdebug no Docker para seu ambiente de desenvolvimento](./Como Configurar o PHP Xdebug no Docker para seu ambiente de desenvolvimento.md)
+
 **Xdebug** is an essential tool for debugging in PHP, allowing developers to track the execution flow of the code and identify errors efficiently. When using **Docker** for our development environment, setting up Xdebug can be a bit more complex, but with the right steps, we can easily integrate it into our development tool.
 
 In this tutorial, we will configure it for **Visual Studio Code**.
@@ -386,9 +388,11 @@ Now that everything is configured, follow these steps to test:
 4.  **Access the Application**
     In the browser, access `http://localhost:8080`. VS Code should stop at the breakpoint.
 
+    ![Debug](./images/index_debug_2.png)
+
 5.  **Time to Debug**
 
-    ![Debug](./images/index_debug_2.png)
+    ![Debug](./images/debug_bar.png)
 
 That's it, now `echo` and `var_dump` are no longer the only tools to see what's happening :) Using Xdebug allows you to debug your PHP code efficiently; you can see what's happening in real time, quickly identify errors, and optimize your development workflow.
 

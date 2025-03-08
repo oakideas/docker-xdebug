@@ -388,9 +388,11 @@ Agora que tudo está configurado, siga esses passos para testar:
 4. **Acesse a Aplicação**  
    No navegador, acesse `http://localhost:8080`. O VS Code deve parar no breakpoint.
 
+   ![Debug](./images/index_debug_2.png)
+
 5. **Hora de Depurar**
 
-   ![Debug](./images/index_debug_2.png)
+  ![Debug](./images/debug_bar.png)
 
 Pronto, agora o `echo` e `var_dump` não são mais únicas ferramentas para ver o que está acontecendo :)
 Usar o Xdebug permite que você possa depurar seu código PHP de maneira eficiente, você pode ver o que está acontecendo em tempo real, identificar erros rapidamente e otimizar seu fluxo de desenvolvimento.
