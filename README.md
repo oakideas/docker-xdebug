@@ -1,6 +1,6 @@
 # How to Set Up PHP Xdebug in Docker for Your Development Environment
 
-Em pt-br: [Como Configurar o PHP Xdebug no Docker para seu ambiente de desenvolvimento](./Como Configurar o PHP Xdebug no Docker para seu ambiente de desenvolvimento.md)
+Em pt-br: [Como Configurar o PHP Xdebug no Docker para seu ambiente de desenvolvimento](./Como%20Configurar%20o%20PHP%20Xdebug%20no%20Docker%20para%20seu%20ambiente%20de%20desenvolvimento.md)
 
 **Xdebug** is an essential tool for debugging in PHP, allowing developers to track the execution flow of the code and identify errors efficiently. When using **Docker** for our development environment, setting up Xdebug can be a bit more complex, but with the right steps, we can easily integrate it into our development tool.
 
