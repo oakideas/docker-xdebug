@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for Xdebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9003,
+      "pathMappings": {
+        "_/var/www/html": "${workspaceFolder}/1-php-apache-xdebug/src",
+        "/var/www/html": "${workspaceFolder}/2-php-nginx-xdebug/src"
+      },
+      "log": true
+    }
+  ]
+}
